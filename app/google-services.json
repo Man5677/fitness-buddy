@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14000154997",
+    "project_id": "fitness-buddy-ff1aa",
+    "storage_bucket": "fitness-buddy-ff1aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14000154997:android:ec53bec03bd8a04b48cb3c",
+        "android_client_info": {
+          "package_name": "com.app.fitnessbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkmBT-K5zrz6PKk5bwqnEIbJXlWUbvbmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
