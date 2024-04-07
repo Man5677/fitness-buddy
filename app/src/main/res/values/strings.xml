@@ -45,4 +45,11 @@
     <string name="yogasana">This asana is a meditation on determination and perseverance, as well as commitment.</string>
     <string name="utkatasana1"> It is a strengthening and heat-building asana</string>
     <string name="tvmar">Calisthenics will be added soon. Don\'t forget to drink water and stay hydrated</string>
+    <string name="moderate_thinness">Diet Recommendation: Increase your calorie intake by consuming more protein-rich foods like lean meats, fish, eggs, dairy products, nuts, and seeds. Incorporate healthy fats from sources like avocados, olive oil, and nuts.</string>
+    <string name="severe_thinness">Diet Recommendation: Include more fruits, vegetables, lean proteins, and healthy fats in your diet. Avoid high-calorie and processed foods.</string>
+    <string name="mild_thinness">Diet Recommendation: Focus on nutrient-dense foods such as whole grains, lean proteins, fruits, vegetables, and healthy fats. Ensure you\'re eating enough calories to maintain a healthy weight.</string>
+    <string name="normal_diet">No specific diet recommendation needed. However, it\'s essential to maintain a balanced diet with a variety of nutrient-rich foods to support overall health and well-being.</string>
+    <string name="overweight_diet">Diet Recommendation: Limit high-calorie, sugary, and processed foods. Focus on portion control, increase your intake of fruits, vegetables, whole grains, and lean proteins. Incorporate regular physical activity into your routine to support weight loss.</string>
+    <string name="obese_class_I">Diet Recommendation: Adopt a balanced diet consisting of whole foods, including plenty of vegetables, fruits, lean proteins, whole grains, and healthy fats. Limit intake of processed foods, sugary beverages, and high-calorie snacks.</string>
+    <string name="obese_class_ii">Diet Recommendation: Consult with a healthcare professional or registered dietitian to create a personalized diet plan tailored to your health needs. Focus on gradual weight loss through portion control, regular exercise, and a balanced diet.</string>
 </resources>

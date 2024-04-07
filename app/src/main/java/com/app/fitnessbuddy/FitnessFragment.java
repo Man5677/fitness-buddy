@@ -27,8 +27,6 @@ public class FitnessFragment extends Fragment {
     ImageView img4;
     ImageView img5;
 
-    LottieAnimationView animationView1;
-
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -68,13 +66,10 @@ public class FitnessFragment extends Fragment {
         img4 = view.findViewById(R.id.wellbtn1);
         img5 = view.findViewById(R.id.tipsbtn1);
 
-        animationView1 = view.findViewById(R.id.animationView);
-        animationView1.setAnimation("fitness.json");
-
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),BmicalcActivity.class);
+                Intent intent = new Intent(getActivity(), BmicalcActivity.class);
                 startActivity(intent);
             }
         });
@@ -82,7 +77,7 @@ public class FitnessFragment extends Fragment {
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),DietActivity.class);
+                Intent intent = new Intent(getActivity(), DietActivity.class);
                 startActivity(intent);
             }
         });
@@ -98,7 +93,7 @@ public class FitnessFragment extends Fragment {
         img4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),WellnessActivity.class);
+                Intent intent = new Intent(getActivity(), WellnessActivity.class);
                 startActivity(intent);
             }
         });
@@ -106,7 +101,7 @@ public class FitnessFragment extends Fragment {
         img5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(),TipsActivity.class);
+                Intent intent = new Intent(getActivity(), TipsActivity.class);
                 startActivity(intent);
             }
         });
@@ -116,6 +111,6 @@ public class FitnessFragment extends Fragment {
 
     private void gotoUri(String s) {
         Uri uri = Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+        startActivity(new Intent(Intent.ACTION_VIEW, uri));
     }
 }
