@@ -8,14 +8,14 @@
     android:background="@color/white"
     tools:context=".BmiActivity">
 
-    <android.widget.Button
+    <Button
         android:id="@+id/gotomain"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_below="@id/contentlayout"
-        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/buttonbackground"
         android:fontFamily="@font/raleway"
         android:text="RECALCULATE YOUR BMI"
@@ -25,11 +25,12 @@
 
     <TextView
         android:id="@+id/dietDisplay"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/gotomain"
-        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/diet_background"
         android:padding="16dp"
         android:textColor="@color/black"
@@ -44,33 +45,33 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_background"
-        android:paddingLeft="24dp"
+        android:paddingStart="24dp"
         android:paddingTop="12dp"
-        android:paddingRight="24dp"
+        android:paddingEnd="24dp"
         android:paddingBottom="12dp"
         android:text="Diet Website"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold" />
 
-
     <ImageView
         android:id="@+id/imageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/contentlayout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/dietButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
         android:padding="10dp"
-        android:src="@drawable/ok">
-
-    </ImageView>
+        android:src="@drawable/ok" />
 
     <RelativeLayout
         android:id="@+id/contentlayout"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/imageview"
         android:background="@drawable/cardbackgroung"
         android:padding="20dp">
 
@@ -83,9 +84,7 @@
             android:text="22"
             android:textColor="@color/white"
             android:textSize="50sp"
-            android:textStyle="bold">
-
-        </TextView>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/genderdisplay"
@@ -110,10 +109,7 @@
             android:text="Your BMI Category Is"
             android:textColor="@color/white"
             android:textSize="25sp"
-            android:textStyle="bold">
-
-        </TextView>
-
+            android:textStyle="bold" />
     </RelativeLayout>
 
 </RelativeLayout>
